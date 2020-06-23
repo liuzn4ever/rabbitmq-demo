@@ -5,11 +5,11 @@ public interface IRabbitMqService {
     /**
      * 给Rabbitmq发送消息
      * */
-    void send(IRabbitmqExchange exchange,IRabbitmqRouting routing,Object msg);
+    void send(IRabbitMqExchange exchange, IRabbitMqRouting routing, Object msg);
 
     /**
      * 给Rabbitmq发送延迟消息
      * */
-    void send(IRabbitmqExchange exchange,IRabbitmqRouting routing,Object msg,long delay);
+    void send(IRabbitMqExchange exchange, IRabbitMqRouting routing, Object msg, long delay);
 
 }

@@ -2,7 +2,7 @@ package com.lzn.mq.rabbitmqdemo.rabbitmq;
 
 import java.util.Map;
 
-public interface IRabbitmqQueue {
+public interface IRabbitMqQueue {
     /**
      * Queue(队列)名称
      */
